@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 1400vw;
+}
+
+.header{
+    margin-right: auto;
+    position: fixed;
+    background-color:beige;
+    justify-content: center;
+    width: 1400vw;
+}
+
+.logo{
+    padding-left: 30px;
+    display: flex;
+}
+
+.navbar{
+    text-decoration: none;
+    padding-top: 30px;
+    display: inline-block;
+    align-items: center;
+    align-content: space-around;
+
+
+}
+
+@media screen {
+    .header{
+        max-width: 100%;
+    }
+    .navbar{
+        max-width: 100%;
+    }
+    
+}
